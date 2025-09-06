@@ -1,4 +1,4 @@
-package com.basavatarakam  
+package com.Basavatarakam  
 
 import com.facebook.react.ReactPackage
 import com.facebook.react.bridge.ReactApplicationContext

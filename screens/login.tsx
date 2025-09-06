@@ -188,6 +188,8 @@ const LoginScreen = () => {
   };
 
   const sendOtp = async () => {
+    navigation.navigate('Print' as never);
+    return;
     if (!validatePhoneNumber(phoneNumber)) {
       showToast(
         'error',

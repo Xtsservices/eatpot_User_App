@@ -158,7 +158,7 @@ symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Pr
 VM Arguments:
 jvm_args: -Xmx64m -Xms64m -Dorg.gradle.appname=gradlew 
 java_command: org.gradle.wrapper.GradleWrapperMain clean
-java_class_path (initial): C:\XTS\NAVAL\basavatarakam\android\\gradle\wrapper\gradle-wrapper.jar
+java_class_path (initial): C:\XTS\NAVAL\Basavatarakam\android\\gradle\wrapper\gradle-wrapper.jar
 Launcher Type: SUN_STANDARD
 
 [Global flags]
@@ -190,7 +190,7 @@ Log output configuration:
 
 Environment Variables:
 JAVA_HOME=C:\Program Files\Microsoft\jdk-17.0.15.6-hotspot\
-CLASSPATH=C:\XTS\NAVAL\basavatarakam\android\\gradle\wrapper\gradle-wrapper.jar
+CLASSPATH=C:\XTS\NAVAL\Basavatarakam\android\\gradle\wrapper\gradle-wrapper.jar
 PATH=C:\Program Files\Microsoft\jdk-17.0.15.6-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Users\DELL\AppData\Roaming\npm;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Local\Android\Sdk\platform-tools;;c:\Users\DELL\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand
 USERNAME=DELL
 LANG=en_US.UTF-8

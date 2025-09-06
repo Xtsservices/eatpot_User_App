@@ -37,6 +37,7 @@ import PrivacyPolicy from './screens/PrivacyPolicy';
 import ContactUsScreen from './screens/contactUs';
 
 import DeviceInfo from "react-native-device-info";
+import Print from './screens/Print';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 const FORCE_UPDATE_URL = 'https://server.welfarecanteen.in/app-version';
@@ -67,7 +68,7 @@ const App = () => {
   };
 
   const openPlayStore = () => {
-    Linking.openURL("https://play.google.com/store/apps/details?id=com.basavatarakam"); // replace with your packageId
+    Linking.openURL("https://play.google.com/store/apps/details?id=com.Basavatarakam"); // replace with your packageId
   };
 
 if (forceUpdate) {
@@ -133,6 +134,7 @@ if (forceUpdate) {
         <Stack.Screen name="CheckUserLogin" component={CheckUserLogin} />
         <Stack.Screen name="ProfileScreen" component={ProfileScreen} />
         <Stack.Screen name="Login" component={LoginScreen} />
+        <Stack.Screen name="Print" component={Print} />
         <Stack.Screen name="SelectCanteen" component={SelectCanteenScreen} />
         <Stack.Screen
           name="Dashboard"
